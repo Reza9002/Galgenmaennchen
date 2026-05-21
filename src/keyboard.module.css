@@ -1,5 +1,5 @@
 .btn{
-width: 85%;
+width: 100%;
 border: 3px solid black;
 background: none;
 aspect-ratio: 1/1;
@@ -25,4 +25,14 @@ border-radius: 1rem;
 .btn:focus:not(disabled){
  background-color: hsl(200, 100%, 50%);
 
+}
+
+/* //Mobile Extra */
+
+
+@media (max-width: 600px) {
+  .btn {
+    font-size: 1.4rem;
+    border-radius: 0.7rem;
+  }
 }
